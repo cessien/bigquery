@@ -3,21 +3,23 @@ module gorm.io/driver/bigquery
 go 1.16
 
 require (
-	cloud.google.com/go/bigquery v1.42.0
-	cloud.google.com/go/iam v0.5.0 // indirect
+	cloud.google.com/go/bigquery v1.51.0
+	cloud.google.com/go/compute v1.19.1 // indirect
+	cloud.google.com/go/iam v1.0.0 // indirect
+	github.com/andybalholm/brotli v1.0.5 // indirect
+	github.com/apache/thrift v0.18.1 // indirect
+	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
+	github.com/google/flatbuffers v23.3.3+incompatible // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/klauspost/compress v1.16.5 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
+	github.com/pierrec/lz4/v4 v4.1.17 // indirect
 	github.com/sirupsen/logrus v1.9.0
-	github.com/stretchr/testify v1.8.0
-	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
-	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783 // indirect
-	golang.org/x/sys v0.0.0-20221013171732-95e765b1cc43 // indirect
-	golang.org/x/text v0.3.8 // indirect
-	google.golang.org/api v0.99.0
-	google.golang.org/genproto v0.0.0-20221014213838-99cd37c6964a // indirect
-	google.golang.org/grpc v1.50.1 // indirect
-	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
+	github.com/stretchr/testify v1.8.1
+	golang.org/x/crypto v0.8.0 // indirect
+	golang.org/x/tools v0.8.0 // indirect
+	google.golang.org/api v0.119.0
 	gorm.io/gorm v1.24.0
 )
